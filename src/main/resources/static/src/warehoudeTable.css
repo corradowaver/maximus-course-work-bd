@@ -1,0 +1,63 @@
+.title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.warehouse1 {
+    margin: 0 20px 0;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 95%;
+    table-layout:fixed;
+}
+
+.title-most-popular {
+    text-align: left;
+    margin: 0 20px 0;
+}
+
+.most-popular-table {
+    width: 40%;
+}
+
+.warehouse1 td, .warehouse1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.warehouse1 tr:nth-child(even){background-color: #f2f2f2;}
+
+.warehouse1 tr:hover {background-color: #ddd;}
+
+.warehouse1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff0000;
+    color: #859bff;
+}
+
+#main-table th:last-child {
+    background-color: #ffffff;
+    border: none;
+
+}
+
+.add-btn {
+    width: 20%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    line-height: 1;
+    border: 1px solid #0099ff;
+}
+
+#main-table td:last-child {
+    width:10px;
+}
+
+/*td:nth-child(0) {*/
+/*    border: none;*/
+/*}*/
